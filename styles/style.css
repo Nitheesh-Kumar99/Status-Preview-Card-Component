@@ -133,3 +133,87 @@ body {
 .image {
   position: relative;
 }
+
+@media screen and (min-width: 800px) {
+  body {
+    padding: 1rem;
+    height: 100vh;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    padding: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+  .container-2 {
+    width: 60%;
+    height: 380px;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 9.1px;
+    bottom: 0;
+    right: 0;
+    background-color: var(--clr-soft-violet-accent);
+    opacity: 45%;
+    height: 380px;
+    width: 460px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .image {
+    position: relative;
+    height: 428px;
+    width: 460px;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktop-img {
+    display: flex;
+    margin-left: 9px;
+    height: 380px;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .title-description {
+    text-align: left;
+    width: 90%;
+  }
+  .title {
+    text-align: left;
+    width: 75%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .details-container {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+  .item {
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    padding-left: 3rem;
+  }
+  .item-1 {
+    padding: 1rem;
+  }
+}
